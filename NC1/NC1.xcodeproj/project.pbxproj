@@ -101,9 +101,9 @@
 				D4A38BDB2A25C01B00110E9E /* NC1App.swift */,
 				D4A38BDD2A25C01B00110E9E /* ContentView.swift */,
 				D4A38BDF2A25C01C00110E9E /* Assets.xcassets */,
-				D4A38BE12A25C01C00110E9E /* Preview Content */,
 				D4A38C062A25C03600110E9E /* MainView.swift */,
 				D4A38C082A25C06A00110E9E /* getWidth.swift */,
+				D4A38BE12A25C01C00110E9E /* Preview Content */,
 			);
 			path = NC1;
 			sourceTree = "<group>";
