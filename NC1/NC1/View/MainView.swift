@@ -13,20 +13,22 @@ struct MainView: View {
         Spacer()
         
         VStack {
-            Text("시비없는 12팀으로 알아보는")
-                .font(.system(size: 16))
+            //title
+            Text("해리포터 호그와트 기숙사 유형으로 알아보는")
+                .font(.body)
                 .foregroundColor(Color("gray"))
             
             Text(" ")
                 .font(.system(size: 3))
             
-            Text("나는 어떤 러너일까!?")
+            Text("나는 어떤 유형일까?")
                 .fontWeight(.black)
-                .foregroundColor(Color("gray"))
-                .font(.system(size: 32))
+                .foregroundColor(Color("darkGray"))
+                .font(.largeTitle)
                 .padding(.bottom, getWidth() * 0.15)
             
-            Image("test")
+            //main
+            Image("hogwarts")
                 .resizable()
                 .frame(width: 200, height: 200)
                 .padding(.bottom, getWidth() * 0.15)
@@ -34,17 +36,18 @@ struct MainView: View {
             Spacer()
                 .frame(height: 5)
 
-            Text("MC1에서 나는")
+            Text("내가 만약 호그와트에 입학한다면")
                 .fontWeight(.regular)
-                .font(.system(size: 20))
+                .font(.title3)
             
-            Text("어떤 성향의 러너였을지 알아보자!")
-                .font(.system(size: 20))
+            Text("어떤 기숙사에 배정받을지 알아보자!")
                 .fontWeight(.regular)
+                .font(.title3)
             
             Spacer()
-                .frame(height: 5)
+                .frame(height: 10)
             
+            //button
             Button{
                 
             } label: {
@@ -52,9 +55,9 @@ struct MainView: View {
                     .frame(width: getWidth() * 0.7, height: getHeight() * 0.025)
                     .fontWeight(.black)
                     .foregroundColor(.white)
-                    .font(.system(size: 20))
+                    .font(.title2)
                     .padding(15)
-                    .background(Color("blue"))
+                    .background(Color("yellow"))
                     .cornerRadius(30)
                     .padding(.top, getWidth() * 0.1)
             }
